@@ -17,10 +17,7 @@ Kemudian buka melalui browser: http://localhost/phpmyadmin/
 
 Kemudian untuk mengakses direktory tersebut pada web server dengan mengakses URL:
 http://localhost/lab8_php_database/
-
-
-
-
+![foto](https://github.com/dirarohmaeni/lab8web/blob/b7c99187f88b196c8f112d275e43d8d8c87fff58/lab8/utama.png)
 
 
 1. Membuat file koneksi database
@@ -39,6 +36,8 @@ if ($conn == false)
 } #else echo "Koneksi berhasil";
 ?>
 ```
+Kemudian lihat untuk hasilnya
+![foto](https://github.com/dirarohmaeni/lab8web/blob/b7c99187f88b196c8f112d275e43d8d8c87fff58/lab8/koneksi.png)
 
 
 2. Membuat file index untuk menampilkan data (Read)
@@ -95,7 +94,8 @@ $result = mysqli_query($conn, $sql);
 </body>
 </html>
 ```
-
+Kemudian lihat untuk hasilnya
+![foto](https://github.com/dirarohmaeni/lab8web/blob/b7c99187f88b196c8f112d275e43d8d8c87fff58/lab8/data.png)
 
 
 3. Menambah Data (Create)
@@ -181,6 +181,8 @@ if (isset($_POST['submit']))
 </body>
 </html>
 ```
+Kemudian lihat untuk hasilnya
+![foto](https://github.com/dirarohmaeni/lab8web/blob/b7c99187f88b196c8f112d275e43d8d8c87fff58/lab8/tambah.png)
 
 
 5. Mengubah Data (Update)
@@ -287,6 +289,8 @@ if (isset($_POST['submit']))
 </body>
 </html>
 ```
+Kemudian lihat untuk hasilnya
+![foto](https://github.com/dirarohmaeni/lab8web/blob/b7c99187f88b196c8f112d275e43d8d8c87fff58/lab8/ubah.png)
 
 
 6. Menghapus Data (Delete)
@@ -302,3 +306,5 @@ $result = mysqli_query($conn, $sql);
 <html lang="en">
 <head>
 ```
+Kemudian lihat untuk hasilnya
+![foto](https://github.com/dirarohmaeni/lab8web/blob/b7c99187f88b196c8f112d275e43d8d8c87fff58/lab8/hapus.png)
